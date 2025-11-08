@@ -1,0 +1,1 @@
+import{r as e}from"./index-CybXJaB_.js";const h=(c,s)=>{const[t,o]=e.useState(c);e.useEffect(()=>{if(t<=0){s==null||s();return}const n=setInterval(()=>{o(d=>d-1)},1e3);return()=>clearInterval(n)},[t,s]);const r=n=>String(n).padStart(2,"0"),a=Math.floor(t/3600),u=Math.floor(t%3600/60),f=t%60;return{hours:r(a),minutes:r(u),seconds:r(f)}};export{h as u};

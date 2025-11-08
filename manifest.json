@@ -1,0 +1,43 @@
+{
+  "short_name": "GameHub",
+  "name": "盖世游戏-PC",
+  "description": "一款专业的游戏应用，支持云游戏与模拟器畅玩",
+  "categories": ["games", "entertainment", "utilities"],
+  "lang": "zh-CN",
+  "orientation": "any",
+  "display": "standalone",
+  "start_url": ".",
+  "theme_color": "#10131d",
+  "background_color": "#0a0e1a",
+  "screenshots": [
+    {
+      "src": "screenshots/desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshots/mobile.png",
+      "sizes": "320x456",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

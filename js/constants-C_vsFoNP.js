@@ -1,0 +1,1 @@
+const e="bg-success-10 text-[var(--Success-5)]",t="bg-danger-10 text-[var(--Danger-5)]",o="bg-respected-10 text-[var(--Respected)]",c={0:{text:"待支付",color:o},1:{text:"已支付",color:e},2:{text:"已取消",color:t},3:{text:"已关闭（超时）",color:t},4:{text:"已退款",color:t},5:{text:"支付失败",color:t},6:{text:"交易完成",color:e},7:{text:"待扣款",color:o}};export{c as o};

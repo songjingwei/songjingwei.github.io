@@ -1,0 +1,1 @@
+import{d as a,aP as t}from"./index-CybXJaB_.js";const o=r=>a({queryKey:["providers",r],queryFn:async()=>{const e=await t({region:r});return Array.isArray(e.data.providers)?e.data.providers.filter(s=>s.enabled):[]},staleTime:300*1e3,gcTime:1800*1e3});export{o as u};

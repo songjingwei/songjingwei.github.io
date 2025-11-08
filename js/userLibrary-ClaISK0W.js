@@ -1,0 +1,1 @@
+import{aF as t}from"./index-CybXJaB_.js";const r=e=>t.get("/game/v1/user/game_lib/list",{params:{...e}}),s=e=>t.post(`/game/v1/user/game_lib/collect/${e}`),c=e=>t.post(`/game/v1/user/game_lib/collect/${e}`,{action:"uncollect"}),l=e=>t.get(`/game/v1/user/game_lib/collect/${e}`);export{l as a,s as c,r as g,c as u};
